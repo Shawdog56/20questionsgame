@@ -1,0 +1,41 @@
+{
+    "question": "¿Es tangible?",
+    "si": {
+        "question": "¿Está en la tierra?",
+        "si": {
+            "question": "¿Es un ser vivo?",
+            "si": {
+                "question": "¿Es un animal?",
+                "si": {},
+                "no": {}
+            },
+            "no": {
+                "question": "¿Se puede contar?",
+                "si": {},
+                "no": {
+                    "question": "",
+                    "si": {},
+                    "no": {}
+                }
+            }
+        },
+        "no": {
+            "question": "¿Produce luz?",
+            "si": {},
+            "no": {}
+        }
+    },
+    "no": {
+        "question": "¿Puede un humano percibirlo de alguna manera?",
+        "si": {
+            "question": "",
+            "si": {},
+            "no": {}
+        },
+        "no": {
+            "question": "¿Proviene del pensamiento?",
+            "si": {},
+            "no": {}
+        }
+    }
+}
