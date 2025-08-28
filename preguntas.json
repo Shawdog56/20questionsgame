@@ -6,8 +6,70 @@
             "question": "¿Es un ser vivo?",
             "si": {
                 "question": "¿Es un animal?",
-                "si": {},
-                "no": {}
+                "si": {
+                    "question": "¿Es un mamífero?",
+                    "si": {
+                        "question": "¿Es bípedo?",
+                        "si": {
+                            "question": "¿Es el animal más inteligente del planeta?",
+                            "si": {
+                                "answer":"Es un humano"
+                            },
+                            "no": {
+                                "question": "¿Es un primate?",
+                                "si": {
+                                    "question": "¿Es más fuerte que un humano?",
+                                    "si": {
+                                        "question": "¿Tiene el pelo rojizo?",
+                                        "si": {
+                                            "answer":"Es un orangután"
+                                        },
+                                        "no": {
+                                            "question": "¿Es el más fuerte de los primates?",
+                                            "si": {
+                                                "answer": "Es un gorila"
+                                            },
+                                            "no": {
+                                                "answer": "Es un chimpancé o bonobo"
+                                            }
+                                        }
+                                    },
+                                    "no": {}
+                                },
+                                "no": {
+                                    "question": "¿Es un marsupial?",
+                                    "si": {},
+                                    "no": {}
+                                }
+                            }
+                        },
+                        "no": {
+                            
+                        }
+                    },
+                    "no": {
+                        "question": "¿Es un reptil?",
+                        "si": {},
+                        "no": {
+                            "question": "¿Tiene plumas?",
+                            "si": {
+                                "question": "¿Vive en condiciones de extremo frío?",
+                                "si": {
+                                    "answer":"Es un pingüino"
+                                },
+                                "no": {
+                                    
+                                }
+                            },
+                            "no": {}
+                        }
+                    }
+                },
+                "no": {
+                    "question": "¿Es del reino plantae?",
+                    "si": {},
+                    "no": {}
+                }
             },
             "no": {
                 "question": "¿Se puede contar?",
@@ -39,3 +101,6 @@
         }
     }
 }
+
+
+                            
