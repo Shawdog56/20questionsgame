@@ -3,7 +3,7 @@
     "si": {
         "question": "¿Está en la tierra?",
         "si": {
-            "question": "¿Es un ser vivo?",
+            "question": "¿Es un ser vivo?", 
             "si": {
                 "question": "¿Es un animal?",
                 "si": {
@@ -34,7 +34,11 @@
                                             }
                                         }
                                     },
-                                    "no": {}
+                                    "no": {
+                                        "question": "",
+                                        "si": {},
+                                        "no": {}
+                                    }
                                 },
                                 "no": {
                                     "question": "¿Es un marsupial?",
@@ -67,17 +71,761 @@
                 },
                 "no": {
                     "question": "¿Es del reino plantae?",
-                    "si": {},
-                    "no": {}
+                    "si": {
+                        "question": "",
+                        "si": {},
+                        "no": {}
+                    },
+                    "no": {
+                        "question": "¿Es del reino fungi?",
+                        "si": {
+                            "question": "",
+                            "si": {},
+                            "no": {}
+                        },
+                        "no": {
+                            "question": "¿Es del reino monera?",
+                            "si": {
+                                "question": "",
+                                "si": {},
+                                "no": {}
+                            },
+                            "no": {
+                                "question": "",
+                                "si": {},
+                                "no": {}
+                            }
+                        }
+                    }
                 }
             },
             "no": {
-                "question": "¿Se puede contar?",
-                "si": {},
-                "no": {
+                "question": "¿Es una parte de un ser vivo?",
+                "si": {
                     "question": "",
                     "si": {},
                     "no": {}
+                },
+                "no": {
+                    "question": "¿Se puede contar?",
+                    "si": {
+                        "question": "¿Es más grande que un humano?",
+                        "si": {},
+                        "no": {}
+                    },
+                    "no": {
+                        "question": "¿Es un elemento de la tabla periódica?",
+                        "si": {
+                            "question": "¿El número atómico del elemento está entre 1 y 59?",
+                            "si":  {
+                                "question": "¿El número atómico del elemento está entre 1 y 29?",
+                                "si":  {
+                                    "question": "¿El número atómico del elemento está entre 1 y 14?",
+                                    "si":  {
+                                        "question": "¿El número atómico del elemento está entre 1 y 7?",
+                                        "si":  {
+                                            "question": "¿El número atómico del elemento está entre 1 y 3?",
+                                            "si":  {
+                                                "question": "¿El número atómico del elemento está entre 1 y 2?",
+                                                "si":  {
+                                                    "question": "¿El número atómico del elemento es 1?",
+                                                    "si": {
+                                                        "answer": "Es Hidrógeno"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Helio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "answer":"Es Litio"
+                                                }
+                                            },
+                                            "no": {
+                                                "question": "¿El número atómico del elemento está entre 4 y 5?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 4?",
+                                                    "si": {
+                                                        "answer": "Es Berilio"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Boro"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 6?",
+                                                    "si": {
+                                                        "answer": "Es Carbono"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Nitrógeno"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "no": {
+                                            "question": "¿El número atómico del elemento está entre 8 y 11?",
+                                            "si":  {
+                                                "question": "¿El número atómico del elemento está entre 8 y 9?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 8?",
+                                                    "si": {
+                                                        "answer":"Es Oxigeno"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Fluor"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 10?",
+                                                    "si": {
+                                                        "answer":"Es Neón"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Sodio"
+                                                    }
+                                                }
+                                            },
+                                            "no": {
+                                                "question": "¿El número atómico del elemento está entre 12 y 13?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 12?",
+                                                    "si": {
+                                                        "answer":"Es Magnesio"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Aluminio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "answer": "Es Silicio"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "no": {
+                                        "question": "¿El número atómico del elemento está entre 15 y 22?",
+                                        "si":  {
+                                            "question": "¿El número atómico del elemento está entre 15 y 18?",
+                                            "si": {
+                                                "question": "¿El número atómico del elemento está entre 15 y 16?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 15?",
+                                                    "si": {
+                                                        "answer": "Es Fósforo"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Azúfre"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 17?",
+                                                    "si": {
+                                                        "answer":"Es Cloro"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Argón"
+                                                    }
+                                                }
+                                            },
+                                            "no": {
+                                                "question": "¿El número atómico del elemento está entre 19 y 20?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 19?",
+                                                    "si": {
+                                                        "answer":"Es Potasio"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Calcio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 21?",
+                                                    "si": {
+                                                        "answer":"Es Escandio"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Titanio"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "no": {
+                                            "question": "¿El número atómico del elemento está entre 23 y 26?",
+                                            "si": {
+                                                "question": "¿El número atómico del elemento está entre 23 y 24?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 23?",
+                                                    "si": {
+                                                        "answer":"Es Vanadio"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Cromo"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 25?",
+                                                    "si": {
+                                                        "answer": "Es Manganeso"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Hierro"
+                                                    }
+                                                }
+                                            },
+                                            "no": {
+                                                "question": "¿El número atómico del elemento está entre 27 y 28?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 27?",
+                                                    "si": {
+                                                        "answer":"Es Cobalto"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Niquel"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "answer":"Es Cobre"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "no": {
+                                    "question": "¿El número atómico del elemento está entre 30 y 44?",
+                                    "si":  {
+                                        "question": "¿El número atómico del elemento está entre 30 y 37?",
+                                        "si":  {
+                                            "question": "¿El número atómico del elemento está entre 30 y 33?",
+                                            "si":  {
+                                                "question": "¿El número atómico del elemento está entre 30 y 31?",
+                                                "si":  {
+                                                    "question": "¿El número atómico del elemento es 30?",
+                                                    "si": {
+                                                        "answer": "Es Zinc"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Galio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 32?",
+                                                    "si": {
+                                                        "answer": "Es Germanio"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Arsénico"
+                                                    }
+                                                }
+                                            },
+                                            "no": {
+                                                "question": "¿El número atómico del elemento está entre 34 y 35?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 34?",
+                                                    "si": {
+                                                        "answer": "Es Selenio"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Bromo"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 36?",
+                                                    "si": {
+                                                        "answer": "Es Kriptón"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Rubidio"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "no": {
+                                            "question": "¿El número atómico del elemento está entre 38 y 41?",
+                                            "si":  {
+                                                "question": "¿El número atómico del elemento está entre 38 y 39?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 38?",
+                                                    "si": {
+                                                        "answer":"Es Estroncio"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Itrio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 40?",
+                                                    "si": {
+                                                        "answer":"Es Circonio"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Niobio"
+                                                    }
+                                                }
+                                            },
+                                            "no": {
+                                                "question": "¿El número atómico del elemento está entre 42 y 43?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 42?",
+                                                    "si": {
+                                                        "answer":"Es Molibdeno"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Tecnecio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "answer": "Es Rutenio"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "no": {
+                                        "question": "¿El número atómico del elemento está entre 45 y 52?",
+                                        "si":  {
+                                            "question": "¿El número atómico del elemento está entre 45 y 48?",
+                                            "si": {
+                                                "question": "¿El número atómico del elemento está entre 45 y 46?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 45?",
+                                                    "si": {
+                                                        "answer": "Es Rodio"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Paladio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 47?",
+                                                    "si": {
+                                                        "answer":"Es Plata"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Cadmio"
+                                                    }
+                                                }
+                                            },
+                                            "no": {
+                                                "question": "¿El número atómico del elemento está entre 49 y 50?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 49?",
+                                                    "si": {
+                                                        "answer":"Es Indio"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Estaño"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 51?",
+                                                    "si": {
+                                                        "answer":"Es Antimonio"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Telurio"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "no": {
+                                            "question": "¿El número atómico del elemento está entre 53 y 56?",
+                                            "si": {
+                                                "question": "¿El número atómico del elemento está entre 53 y 54?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 53?",
+                                                    "si": {
+                                                        "answer":"Es Yodo"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Xenon"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 55?",
+                                                    "si": {
+                                                        "answer": "Es Cesio"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Bario"
+                                                    }
+                                                }
+                                            },
+                                            "no": {
+                                                "question": "¿El número atómico del elemento está entre 57 y 58?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 57?",
+                                                    "si": {
+                                                        "answer":"Es Lantano"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Cerio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "answer":"Es Praseodimio"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "no": {
+                                "question": "¿El número atómico del elemento está entre 60 y 89?",
+                                "si":  {
+                                    "question": "¿El número atómico del elemento está entre 60 y 74?",
+                                    "si":  {
+                                        "question": "¿El número atómico del elemento está entre 60 y 67?",
+                                        "si":  {
+                                            "question": "¿El número atómico del elemento está entre 60 y 63?",
+                                            "si":  {
+                                                "question": "¿El número atómico del elemento está entre 60 y 61?",
+                                                "si":  {
+                                                    "question": "¿El número atómico del elemento es 60?",
+                                                    "si": {
+                                                        "answer": "Es Neodimio"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Prometio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 62?",
+                                                    "si": {
+                                                        "answer": "Es Samario"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Europio"
+                                                    }
+                                                }
+                                            },
+                                            "no": {
+                                                "question": "¿El número atómico del elemento está entre 64 y 65?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 64?",
+                                                    "si": {
+                                                        "answer": "Es Gadolinio"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Terbio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 66?",
+                                                    "si": {
+                                                        "answer": "Es Disprosio"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Holmio"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "no": {
+                                            "question": "¿El número atómico del elemento está entre 68 y 71?",
+                                            "si":  {
+                                                "question": "¿El número atómico del elemento está entre 68 y 69?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 68?",
+                                                    "si": {
+                                                        "answer":"Es Erbio"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Tulio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 70?",
+                                                    "si": {
+                                                        "answer":"Es Iterbio"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Lutecio"
+                                                    }
+                                                }
+                                            },
+                                            "no": {
+                                                "question": "¿El número atómico del elemento está entre 72 y 73?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 72?",
+                                                    "si": {
+                                                        "answer":"Es Hafmio"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Tántalo"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "answer": "Es Wolframio"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "no": {
+                                        "question": "¿El número atómico del elemento está entre 75 y 82?",
+                                        "si":  {
+                                            "question": "¿El número atómico del elemento está entre 75 y 78?",
+                                            "si": {
+                                                "question": "¿El número atómico del elemento está entre 75 y 76?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 75?",
+                                                    "si": {
+                                                        "answer": "Es Renio"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Osmio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 77?",
+                                                    "si": {
+                                                        "answer":"Es Iridio"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Platino"
+                                                    }
+                                                }
+                                            },
+                                            "no": {
+                                                "question": "¿El número atómico del elemento está entre 79 y 80?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 79?",
+                                                    "si": {
+                                                        "answer":"Es Oro"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Mercurio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 81?",
+                                                    "si": {
+                                                        "answer":"Es Plomo"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Bismuto"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "no": {
+                                            "question": "¿El número atómico del elemento está entre 83 y 86?",
+                                            "si": {
+                                                "question": "¿El número atómico del elemento está entre 83 y 84?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 83?",
+                                                    "si": {
+                                                        "answer":"Es Bismuto"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Polonio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 85?",
+                                                    "si": {
+                                                        "answer": "Es Ástato"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Radón"
+                                                    }
+                                                }
+                                            },
+                                            "no": {
+                                                "question": "¿El número atómico del elemento está entre 87 y 88?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 87?",
+                                                    "si": {
+                                                        "answer":"Es Francio"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Radio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "answer":"Es Actinio"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "no": {
+                                    "question": "¿El número atómico del elemento está entre 90 y 104?",
+                                    "si":  {
+                                        "question": "¿El número atómico del elemento está entre 90 y 97?",
+                                        "si":  {
+                                            "question": "¿El número atómico del elemento está entre 90 y 93?",
+                                            "si":  {
+                                                "question": "¿El número atómico del elemento está entre 90 y 91?",
+                                                "si":  {
+                                                    "question": "¿El número atómico del elemento es 90?",
+                                                    "si": {
+                                                        "answer": "Es Torio"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Protactinio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 92?",
+                                                    "si": {
+                                                        "answer": "Es Uranio"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Neptunio"
+                                                    }
+                                                }
+                                            },
+                                            "no": {
+                                                "question": "¿El número atómico del elemento está entre 94 y 95?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 94?",
+                                                    "si": {
+                                                        "answer": "Es Plutionio"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Americio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 96?",
+                                                    "si": {
+                                                        "answer": "Es Curio"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Berkelio"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "no": {
+                                            "question": "¿El número atómico del elemento está entre 98 y 101?",
+                                            "si":  {
+                                                "question": "¿El número atómico del elemento está entre 98 y 99?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 98?",
+                                                    "si": {
+                                                        "answer":"Es Californio"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Einstenio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 100?",
+                                                    "si": {
+                                                        "answer":"Es Fermio"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Mendelevio"
+                                                    }
+                                                }
+                                            },
+                                            "no": {
+                                                "question": "¿El número atómico del elemento está entre 102 y 103?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 102?",
+                                                    "si": {
+                                                        "answer":"Es Nobelio"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Lawrencio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "answer": "Es Rutherfordio"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "no": {
+                                        "question": "¿El número atómico del elemento está entre 105 y 112?",
+                                        "si":  {
+                                            "question": "¿El número atómico del elemento está entre 105 y 108?",
+                                            "si": {
+                                                "question": "¿El número atómico del elemento está entre 105 y 106?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 105?",
+                                                    "si": {
+                                                        "answer": "Es Dubnio"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Seaborgio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 107?",
+                                                    "si": {
+                                                        "answer":"Es Bohrio"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Hasio"
+                                                    }
+                                                }
+                                            },
+                                            "no": {
+                                                "question": "¿El número atómico del elemento está entre 109 y 110?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 109?",
+                                                    "si": {
+                                                        "answer":"Es Meitnerio"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Darmstatio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 111?",
+                                                    "si": {
+                                                        "answer":"Es Roentgenio"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Copernicio"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "no": {
+                                            "question": "¿El número atómico del elemento está entre 113 y 116?",
+                                            "si": {
+                                                "question": "¿El número atómico del elemento está entre 113 y 114?",
+                                                "si": {
+                                                    "question": "¿El número atómico del elemento es 113?",
+                                                    "si": {
+                                                        "answer":"Es Nihonio"
+                                                    },
+                                                    "no": {
+                                                        "answer":"Es Flerovio"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "¿El número atómico del elemento es 115?",
+                                                    "si": {
+                                                        "answer": "Es Moscovio"
+                                                    },
+                                                    "no": {
+                                                        "answer": "Es Livermorio"
+                                                    }
+                                                }
+                                            },
+                                            "no": {
+                                                "question": "¿El número atómico del elemento es 117?",
+                                                "si": {
+                                                    "answer": "Es Teneso"
+                                                },
+                                                "no": {
+                                                    "answer":"Es Oganesón"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "no": {
+                            "question": "",
+                            "si": {},
+                            "no": {}
+                        }
+                    }
                 }
             }
         },
